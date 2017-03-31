@@ -30,7 +30,7 @@ alias gco='git checkout'
 alias gcm='git checkout master'
 alias gcb='git checkout -t'
 
-# eval $(hub alias -s)
+eval $(hub alias -s)
 
 alias tree='tree -Chs'
 alias path='echo -e ${PATH//:/\\n}'
@@ -52,5 +52,3 @@ export LANG='en_US.UTF-8'
 # alias npm-prune-global="npm ls -gp --depth=0 | awk -F/ '/node_modules/ && !/\/npm$/ {print $NF}' | xargs npm -g rm"
 # alias pdftk="docker run --rm -v $(pwd):/tmp -i ivoputzer/pdftk $@"
 # alias npmt="npm t -s --$@"
-
-
