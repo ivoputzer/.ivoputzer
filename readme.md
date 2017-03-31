@@ -18,8 +18,10 @@ dotfiles checkout --track origin/master
   dotfiles --help
 ```
 
-##### iterm2
+---
+
+#### iterm2
 navigate to the preferences window (iterm2 -> preferences), click on the general tab and towards the bottom of the window you should see an option that says `load preferences from a custom folder or url`. check this option and set the url according to `$HOME/.iterm2`.
 
-##### sublime text 3
+#### sublime text 3
 for consistency `$HOME/Library/Application Support/Sublime Text 3/Packages/User` needs to be symlinked to `$HOME/.sublime`.
