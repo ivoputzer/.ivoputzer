@@ -1,17 +1,15 @@
 # dotfiles
 
-### setup
+### install
 
 ```
 git init --bare $HOME/.dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+
+dotfiles remote add origin git@github.com:ivoputzer/dotfiles.git
 dotfiles config --local status.showUntrackedFiles no
-```
-
-### install
-
-```
-git clone --separate-git-dir=~/.dotfiles git@github.com:ivoputzer/dotfiles.git $HOME
+dotfiles fetch origin
+dotfiles checkout --track origin/master
 ```
 
 ### usage
