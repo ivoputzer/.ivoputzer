@@ -17,3 +17,6 @@ dotfiles checkout --track origin/master
 ```
   dotfiles --help
 ```
+
+##### Sublime Text 3
+for consistency `$HOME/Library/Application Support/Sublime Text 3/Packages/User` needs to be symlinked to `$HOME/.sublime`.
