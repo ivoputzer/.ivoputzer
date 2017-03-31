@@ -1,0 +1,21 @@
+[user]
+	name = Ivo von Putzer Reibegg
+	email = ivo.putzer@gmail.com
+[core]
+	editor = /usr/bin/vim
+[color]
+	ui = true
+[color "diff"]
+	meta = blue bold
+[credential]
+	helper = osxkeychain
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[mergetool]
+	keepBackup = true
