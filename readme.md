@@ -3,11 +3,8 @@
 ### setup
 ```sh
 git init --bare $HOME/.ivoputzer
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.ivoputzer --work-tree=$HOME'
-
+salias dotfiles='/usr/bin/git --git-dir=$HOME/.ivoputzer --work-tree=$HOME'
 dotfiles config --local status.showUntrackedFiles no
-# or
-echo "*" >> $HOME/.gitignore
 ```
 
 ### install
