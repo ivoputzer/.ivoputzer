@@ -1,15 +1,15 @@
-# .ivoputzer
+# dotfiles
 
 ### setup
 ```sh
-git init --bare $HOME/.ivoputzer
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.ivoputzer --work-tree=$HOME'
+git init --bare $HOME/.dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 dotfiles config --local status.showUntrackedFiles no
 ```
 
 ### install
 ```sh
-git clone --separate-git-dir=~/.ivoputzer git@github.com:ivoputzer/.ivoputzer.git $HOME
+git clone --separate-git-dir=~/.dotfiles git@github.com:ivoputzer/dotfiles.git $HOME
 ```
 
 ### usage
