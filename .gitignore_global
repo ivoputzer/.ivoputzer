@@ -1,0 +1,13 @@
+*.log
+*.swp
+*.orig
+*.tmproj
+*.pbxuser
+*.mode1v3
+*.sublime-project
+*.sublime-workspace
+.svn
+.hg
+.DS_Store
+Icon?
+__MACOSX
