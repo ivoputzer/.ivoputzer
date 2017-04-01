@@ -5,6 +5,13 @@ export LC_ALL="en_US.UTF-8"
 export CLICOLOR="YES"
 export LSCOLORS="ExGxFxdxCxDxDxhbadExEx"
 
+alias dotdiff="dotfiles diff"
+alias dotstatus="dotfiles status -s"
+alias dotadd="dotfiles add"
+alias dotacommit="dotfiles commit -m"
+alias dotaamend="dotfiles commit --amend --no-edit -a"
+alias dot="dotfiles"
+
 alias bashrc="vim ~/.bashrc"
 alias tigrc="vim ~/.tigrc"
 alias zshrc="vim ~/.zshrc"
