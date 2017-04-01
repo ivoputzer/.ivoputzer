@@ -35,13 +35,14 @@ alias gm="git merge"
 alias ga="git add"
 alias gb="git branch"
 alias gd="git diff"
+alias gc="git commit -v"
 alias gdc="git diff --cached"
 alias gst="git status"
 alias gss="gst -s"
 alias gsb="gss -b"
-alias gaa="ga --all"
-alias gci="git commit -m"
-alias gca="git commit -v -a"
+alias gaa="ga -A"
+alias gcm="gc -m"
+alias gca="gc -a"
 alias gco="git checkout"
 alias gcm="git checkout master"
 alias gcb="git checkout -t"
@@ -80,4 +81,18 @@ man() {
   LESS_TERMCAP_ue=$(printf "\e[0m") \
   LESS_TERMCAP_us=$(printf "\e[1;32m") \
   man "$@"
+}
+
+# file search
+f() {
+  find . -iname "*$1*" ${@:2}
+}
+
+r() {
+  grep "$1" ${@:2} -R .
+}
+
+# mkdir and cd
+mkcd() {
+  mkdir -p "$@" && cd "$_"
 }
