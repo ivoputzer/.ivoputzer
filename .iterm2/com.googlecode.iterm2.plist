@@ -31400,9 +31400,9 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>719 175 445 365 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>301 146 918 512 0 0 1280 777 </string>
+	<string>0 331 918 381 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>342 85 850 692 0 0 1280 777 </string>
+	<string>614 267 650 502 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_38A03A24-3617-41F0-9BD4-D06C3909AC26</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_6A3EEB12-5A02-462C-B70C-356EB8C587CA</key>
@@ -32140,7 +32140,7 @@
 			<key>Use Canonical Parser</key>
 			<false/>
 			<key>Use HFS Plus Mapping</key>
-			<true/>
+			<false/>
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
@@ -32237,7 +32237,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-03-31T10:53:27Z</date>
+	<date>2017-04-02T17:40:09Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -32290,5 +32290,9 @@
 	<false/>
 	<key>iTerm Version</key>
 	<string>3.0.15</string>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>
