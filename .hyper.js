@@ -7,6 +7,7 @@ module.exports = {
     foregroundColor: 'rgb(178, 184, 195)',
     backgroundColor: 'rgb(42, 48, 60)',
     borderColor: 'rgb(42, 48, 60)',
+    borderColor: 'rgb(21, 23, 29)',
     termCSS: 'x-row {font-weight: 600}',
     showHamburgerMenu: true,
     padding: '0 5px',
@@ -29,6 +30,7 @@ module.exports = {
       lightWhite: '#f7f7f7'
     },
     shell: '/usr/local/bin/fish',
+
     shellArgs: ['--login'],
 
     // for environment variables
@@ -48,26 +50,13 @@ module.exports = {
 
     // URL to custom bell
     // bellSoundURL: 'http://example.com/bell.mp3',
-
-    // for advanced config flags please refer to https://hyper.is/#cfg
   },
-
-  // a list of plugins to fetch and install from npm
-  // format: [@org/]project[#version]
-  // examples:
-  //   `hyperpower`
-  //   `@company/project`
-  //   `project#1.0.1`
   plugins: [
-    'hyperline',
+    // 'hyperline',
     // 'hyper-blink',
     // 'hyper-solarized-dark',
     // 'hyperlinks',
     // 'hyper-tab-icons'
   ],
-
-  // in development, you can create a directory under
-  // `~/.hyper_plugins/local/` and include it here
-  // to load it and avoid it being `npm install`ed
   localPlugins: []
-};
+}
