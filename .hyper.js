@@ -31,18 +31,19 @@ module.exports = {
     },
     shell: '/usr/local/bin/fish',
     env: {
-      EDITOR: 'subl -w'
+      EDITOR: 'subl -w',
+      LANG: 'en_US.UTF-8',
+      LC_ALL: 'en_US.UTF-8',
+      CLICOLOR: 'YES',
+      LSCOLORS: 'ExGxFxdxCxDxDxhbadExEx'
     },
     bell: 'SOUND',
     copyOnSelect: true
   },
   plugins: [
+    'hyper-blink',
     'hyperline',
     'hyperlinks',
-    'hypercwd',
-    'hyper-blink',
-    'hyperterm-mactabs',
-    'hyper-tab-icons',
     // 'hyperterm-tabs',
     // 'hyperterm-focus-reporting',
     // 'hyper-terminal-tabs',
