@@ -7,10 +7,10 @@ module.exports = {
     foregroundColor: 'rgb(178, 184, 195)',
     backgroundColor: 'rgb(42, 48, 60)',
     borderColor: 'rgb(42, 48, 60)',
-    borderColor: 'rgb(21, 23, 29)',
+    // borderColor: 'rgb(21, 23, 29)',
     termCSS: 'x-row {font-weight: 600}',
     showHamburgerMenu: true,
-    padding: '0 5px',
+    padding: '10px 5px',
     colors: {
       black: '#1b1b1b',
       red: '#bc5653',
@@ -30,33 +30,23 @@ module.exports = {
       lightWhite: '#f7f7f7'
     },
     shell: '/usr/local/bin/fish',
-
-    shellArgs: ['--login'],
-
-    // for environment variables
     env: {
       EDITOR: 'subl -w'
     },
-
-    // set to false for no bell
     bell: 'SOUND',
-
-    // if true, selected text will automatically be copied to the clipboard
     copyOnSelect: true
-
-    // if true, on right click selected text will be copied or pasted if no
-    // selection is present (true by default on Windows)
-    // quickEdit: true
-
-    // URL to custom bell
-    // bellSoundURL: 'http://example.com/bell.mp3',
   },
   plugins: [
-    // 'hyperline',
-    // 'hyper-blink',
+    'hyperline',
+    'hyperlinks',
+    'hypercwd',
+    'hyper-blink',
+    'hyperterm-mactabs',
+    'hyper-tab-icons',
+    // 'hyperterm-tabs',
+    // 'hyperterm-focus-reporting',
+    // 'hyper-terminal-tabs',
     // 'hyper-solarized-dark',
-    // 'hyperlinks',
-    // 'hyper-tab-icons'
   ],
   localPlugins: []
 }
