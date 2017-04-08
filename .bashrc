@@ -58,7 +58,7 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 alias pdftk="docker run --rm -v $(pwd):/tmp -i ivoputzer/pdftk"
 
-#change directory to the current finder directory
+# change directory to the current finder directory
 
 cdf() {
   target=`osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)'`
@@ -67,32 +67,4 @@ cdf() {
   else
       echo 'No Finder window found' >&2
   fi
-}
-
-# get colors in manual pages
-
-man() {
-  env \
-  LESS_TERMCAP_mb=$(printf "\e[1;31m") \
-  LESS_TERMCAP_md=$(printf "\e[1;31m") \
-  LESS_TERMCAP_me=$(printf "\e[0m") \
-  LESS_TERMCAP_se=$(printf "\e[0m") \
-  LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
-  LESS_TERMCAP_ue=$(printf "\e[0m") \
-  LESS_TERMCAP_us=$(printf "\e[1;32m") \
-  man "$@"
-}
-
-# file search
-f() {
-  find . -iname "*$1*" ${@:2}
-}
-
-r() {
-  grep "$1" ${@:2} -R .
-}
-
-# mkdir and cd
-mkcd() {
-  mkdir -p "$@" && cd "$_"
 }
