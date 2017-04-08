@@ -1,6 +1,10 @@
 #!/usr/bin/env sh
 
+# brew-install
 ruby -e $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+
+# n-install
+chown -R $User:admin /usr/local/lib/node_modules
 
 brew doctor
 brew tap caskroom/fonts
