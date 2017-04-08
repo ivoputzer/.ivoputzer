@@ -15,10 +15,12 @@
 		"fish-shell",
 		"Git",
 		"GitGutter",
+		"HTML-CSS-JS Prettify",
 		"JavaScriptNext - ES6 Syntax",
 		"Material Theme",
 		"Package Control",
 		"SideBarEnhancements",
+		"StandardFormat",
 		"Theme - Spacegray"
 	]
 }
