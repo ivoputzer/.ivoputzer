@@ -28,11 +28,12 @@ function fish_right_prompt -d 'write out the right prompt'
         echo -n '/ahead'
       end
     end
-  else if dotfiles status > /dev/null 2>&1
-    set_color blue
-    echo "+ dotfiles"
+  else if test -z (dotfiles status --porcelain > /dev/null 2>&1)
+    set_color yellow
+    echo "[dotfiles]"
   else
-    date +'%H%M%S' # update fancy clock automatically
+    set_color yellow
+    echo -n '['(date +'%H%M%S')']' # update fancy clock automatically
   end
   set_color normal
 end
