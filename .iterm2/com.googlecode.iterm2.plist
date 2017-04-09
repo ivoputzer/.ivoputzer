@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AdjustWindowForFontSizeChange</key>
-	<true/>
+	<false/>
 	<key>AllowClipboardAccess</key>
 	<true/>
 	<key>AlternateMouseScroll</key>
@@ -31610,9 +31610,9 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>719 175 445 365 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>330 204 918 495 0 0 1280 777 </string>
+	<string>439 357 918 512 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>9 271 962 502 0 0 1280 777 </string>
+	<string>786 84 650 749 0 0 1440 900 </string>
 	<key>NeverWarnAboutShortLivedSessions_38A03A24-3617-41F0-9BD4-D06C3909AC26</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_6A3EEB12-5A02-462C-B70C-356EB8C587CA</key>
@@ -31840,7 +31840,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string></string>
+			<string>/usr/local/bin/fish</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -31875,7 +31875,7 @@
 			<key>Cursor Type</key>
 			<integer>2</integer>
 			<key>Custom Command</key>
-			<string>No</string>
+			<string>Yes</string>
 			<key>Custom Directory</key>
 			<string>Recycle</string>
 			<key>Default Bookmark</key>
@@ -32273,6 +32273,8 @@
 			<true/>
 			<key>Shortcut</key>
 			<string></string>
+			<key>Show Mark Indicators</key>
+			<false/>
 			<key>Silence Bell</key>
 			<false/>
 			<key>Smart Cursor Color</key>
@@ -32486,7 +32488,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-04-03T22:44:40Z</date>
+	<date>2017-04-07T21:37:45Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
