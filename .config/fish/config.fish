@@ -1,6 +1,12 @@
+set -x EDITOR "subl -w"
+set -x LANG "en_US.UTF-8"
+set -x LC_ALL "en_US.UTF-8"
+set -x CLICOLOR "YES"
+set -x LSCOLORS "ExGxFxdxCxDxDxhbadExEx"
+
 alias tree "tree -Chs $argv"
 alias less "less -R $argv"
-alias subl "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -w"
+alias subl "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias mkdir "mkdir -p $argv"
 alias mkd "mkdir $argv; and cd $argv"
 alias grep "grep --color=auto $argv"

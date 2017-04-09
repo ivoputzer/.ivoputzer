@@ -21,19 +21,19 @@ function fish_right_prompt -d 'write out the right prompt'
     if git rev-parse --abbrev-ref @"{u}" > /dev/null 2>&1 # ?has_upstream
       set_color yellow
       if test (git rev-list --right-only --count HEAD...@"{u}" ^ /dev/null) -gt 0 # ?behind_upstream
-        echo -n '/behind'
+        echo '/behind'
       end
       set_color blue
       if test (git rev-list --left-only --count HEAD...@"{u}" ^ /dev/null) -gt 0 # ?ahead_of_upstream
-        echo -n '/ahead'
+        echo '/ahead'
       end
     end
-  else if test -z (dotfiles status --porcelain > /dev/null 2>&1)
+  else if test (dotfiles status --porcelain | wc -l) -gt 0
     set_color yellow
-    echo "[dotfiles]"
+    echo 'dotfiles'
   else
-    set_color yellow
-    echo -n '['(date +'%H%M%S')']' # update fancy clock automatically
+    set_color black
+    date +'%H%M%S' # update fancy clock automatically
   end
   set_color normal
 end
