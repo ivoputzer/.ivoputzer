@@ -9,15 +9,16 @@ alias lc "stat -f '%A %N' * $argv"
 alias l "ls -hAno $argv"
 
 alias dotfiles "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $argv"
+alias d "dotfiles $argv"
 alias dotdiff "dotfiles diff $argv"
 alias dotstatus "dotfiles status -s $argv"
-alias dot "dotfiles $argv"
 
 alias bashrc "vim ~/.bashrc"
 alias tigrc "vim ~/.tigrc"
 alias zshrc "vim ~/.zshrc"
 alias ohmyzsh "vim ~/.oh-my-zsh"
 
+alias g "git $argv"
 alias gm "git merge $argv"
 alias ga "git add $argv"
 alias gb "git branch $argv"
