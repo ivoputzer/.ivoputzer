@@ -42,7 +42,7 @@ alias gcm "git checkout master $argv"
 alias gcb "git checkout -t $argv"
 alias tig "tig --all $argv"
 
-alias pdftk "docker run --rm -v "(pwd)":/tmp -i ivoputzer/pdftk $argv"
+alias pdftk "docker run --rm -v "(pwd)":/wd -i ivoputzer/pdftk $argv"
 
 function cdf -d 'change directory to the current finder directory'
   set -l target (osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)')
