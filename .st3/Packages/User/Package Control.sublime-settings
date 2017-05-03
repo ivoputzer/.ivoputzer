@@ -17,11 +17,13 @@
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
 		"JavaScriptNext - ES6 Syntax",
+		"Markdown Preview",
 		"MarkdownHighlighting",
 		"Material Theme",
 		"Package Control",
 		"SideBarEnhancements",
-		"StandardFormat",
+		"SublimeLinter",
+		"SublimeLinter-contrib-standard",
 		"Theme - Spacegray"
 	]
 }
