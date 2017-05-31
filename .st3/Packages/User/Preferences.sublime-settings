@@ -11,14 +11,15 @@
 	],
 	"folder_exclude_patterns":
 	[
-		".git"
+		".git",
+		"node_modules"
 	],
 	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 18,
+	"font_size": 16,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
