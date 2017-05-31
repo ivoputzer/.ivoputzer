@@ -3,6 +3,8 @@ set -x LANG "en_US.UTF-8"
 set -x LC_ALL "en_US.UTF-8"
 set -x CLICOLOR "YES"
 set -x LSCOLORS "ExGxFxdxCxDxDxhbadExEx"
+set -x N_PREFIX "$HOME/n"
+set -x PATH "$N_PREFIX/bin" $PATH
 
 alias tree "tree -Chs $argv"
 alias less "less -R $argv"
@@ -15,7 +17,7 @@ alias lc "stat -f '%A %N' * $argv"
 alias l "ls -hAno $argv"
 
 alias dotfiles "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $argv"
-alias dl "docker run -v (pwd):/src -t jbergknoff/youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]' -o /src/video.mp4 $argv"
+alias youtube-dl "docker run --rm -v (pwd):/wd -t ivoputzer/youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]' $argv"
 alias d "dotfiles $argv"
 alias dotdiff "dotfiles diff $argv"
 alias dotstatus "dotfiles status -s $argv"
@@ -42,6 +44,8 @@ alias gco "git checkout $argv"
 alias gcm "git checkout master $argv"
 alias gcb "git checkout -t $argv"
 alias tig "tig --all $argv"
+
+alias airport "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport $argv"
 
 # alias pdftk "docker run --rm -v "(pwd)":/wd -i ivoputzer/pdftk $argv"
 
