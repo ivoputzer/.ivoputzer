@@ -68,3 +68,6 @@ cdf() {
       echo 'No Finder window found' >&2
   fi
 }
+
+# added by travis gem
+[ -f /Users/ivoputzer/.travis/travis.sh ] && source /Users/ivoputzer/.travis/travis.sh

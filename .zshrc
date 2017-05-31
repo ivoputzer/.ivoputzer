@@ -12,3 +12,6 @@ fpath=(/usr/local/share/zsh/site-functions $fpath)
 
 source ~/.bash_profile
 source ~/.n_profile
+
+# added by travis gem
+[ -f /Users/ivoputzer/.travis/travis.sh ] && source /Users/ivoputzer/.travis/travis.sh
