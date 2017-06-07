@@ -1,0 +1,16 @@
+{
+    "browser": "default",
+    "enable_mathjax": true,
+    "enable_uml": true,
+    "enable_highlight": true,
+    "enable_pygments": true,
+    "guess_language": true,
+    "github_inject_header_ids": true,
+    "allow_css_overrides": true,
+    "enable_autoreload": true,
+    "markdown_filetypes": [".md", ".markdown", ".mdown"],
+    "image_path_conversion": "absolute",
+    "file_path_conversions": "absolute",
+    "show_panel_on_build": true,
+    "embed_css_for_sublime_output": true
+}
