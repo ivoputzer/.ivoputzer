@@ -12,7 +12,7 @@ alias subl "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias mkdir "mkdir -p $argv"
 alias mkd "mkdir $argv; and cd $argv"
 alias grep "grep --color=auto $argv"
-alias n "sudo n $argv"
+alias n "fnm $argv"
 alias lc "stat -f '%A %N' * $argv"
 alias l "ls -hAno $argv"
 
