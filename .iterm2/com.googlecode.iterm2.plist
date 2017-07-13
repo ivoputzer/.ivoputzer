@@ -31609,18 +31609,20 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>857 401 445 231 0 0 1920 1057 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 139 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>766 288 918 495 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>588 253 810 624 0 0 1440 900 </string>
+	<string>460 90 1434 894 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>790 -625 810 602 480 -900 1440 877 </string>
+	<string>514 400 650 477 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>755 289 1066 624 0 0 1920 1057 </string>
+	<string>752 519 650 477 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>124 263 810 602 0 0 1440 877 </string>
+	<string>293 423 650 477 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>239 298 810 602 0 0 1440 900 </string>
+	<string>239 406 650 477 0 0 1440 900 </string>
 	<key>NeverWarnAboutShortLivedSessions_38A03A24-3617-41F0-9BD4-D06C3909AC26</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_6A3EEB12-5A02-462C-B70C-356EB8C587CA</key>
@@ -32496,7 +32498,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-04-21T12:48:44Z</date>
+	<date>2017-06-15T17:57:12Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -32504,7 +32506,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SmartPlacement</key>
