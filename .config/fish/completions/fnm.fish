@@ -1,0 +1,1 @@
+/Users/ivoputzer/.config/fisherman/fnm/completions/fnm.fish

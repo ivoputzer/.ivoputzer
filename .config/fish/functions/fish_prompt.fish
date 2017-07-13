@@ -3,7 +3,7 @@ function fish_prompt -d 'write out the main prompt'
   if git rev-parse --show-toplevel > /dev/null 2>&1 # ?has_git_root
       string replace (git rev-parse --show-toplevel) '' (pwd) | awk '{print substr($0,2)}' | tr -d '\n'
   else
-    echo -n (prompt_pwd)
+    echo -n (command pwd)
   end
   echo -n '❯ '
   set_color normal
