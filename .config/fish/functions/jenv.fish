@@ -9,7 +9,7 @@ set -e JAVA_HOME
 function jenv
   set cmd $argv[1]
   set arg ""
-  if test (count $argv) -gt 1 # great, fish first array index is 1!
+  if test (count $argv) -gt 1 # fish first array index is 1, great!
     set arg $argv[2..-1]
   end
   switch "$cmd"
