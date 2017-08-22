@@ -1,3 +1,3 @@
 function fish_greeting
-  # echo 'hi, ivoputzer'
+  ssh-add -A 2> /dev/null
 end
