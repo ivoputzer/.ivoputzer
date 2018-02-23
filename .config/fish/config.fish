@@ -11,7 +11,8 @@ alias airport "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/C
 alias ic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 
 alias pdftk "docker run --rm -v (pwd):/wd -i ivoputzer/pdftk $argv"
-alias youtube-dl "docker run --rm -v (pwd):/wd -t ivoputzer/youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]' $argv"
+alias youtube-dl "docker run --rm -v (pwd):/wd -i ivoputzer/youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]' $argv"
+alias chromium="docker run --rm --privileged -p 9222:9222 -i ivoputzer/chromium $argv"
 alias jq "docker run --rm -i ivoputzer/jq $argv"
 
 alias tree "tree -Chs $argv"
@@ -23,7 +24,9 @@ alias grep "grep --color=auto $argv"
 alias n "fnm $argv"
 alias lc "stat -f '%A %N' * $argv"
 alias l "ls -hAno $argv"
-alias d "dotfiles $argv"
+alias dot "dotfiles $argv"
+alias do "docker $argv"
+alias doco "docker-compose $argv"
 
 alias bashrc "vim ~/.bashrc"
 alias fishrc "vim ~/.config/fish/config.fish"
@@ -31,6 +34,8 @@ alias tigrc "vim ~/.tigrc"
 alias zshrc "vim ~/.zshrc"
 
 alias g "git $argv"
+alias h "hub $argv"
+
 alias gm "git merge $argv"
 alias ga "git add $argv"
 alias gb "git branch $argv"
