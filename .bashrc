@@ -71,3 +71,5 @@ cdf() {
 
 # added by travis gem
 [ -f /Users/ivoputzer/.travis/travis.sh ] && source /Users/ivoputzer/.travis/travis.sh
+
+export PATH=/Users/ivoputzer/.local/bin:$PATH
