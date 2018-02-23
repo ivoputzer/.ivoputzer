@@ -12,6 +12,7 @@ alias ic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 
 alias pdftk "docker run --rm -v (pwd):/wd -i ivoputzer/pdftk $argv"
 alias youtube-dl "docker run --rm -v (pwd):/wd -t ivoputzer/youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]' $argv"
+alias jq "docker run --rm -i ivoputzer/jq $argv"
 
 alias tree "tree -Chs $argv"
 alias less "less -R $argv"
