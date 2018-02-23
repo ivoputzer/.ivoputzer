@@ -6,7 +6,10 @@ set -x CLICOLOR "YES"
 set -x LSCOLORS "ExGxFxdxCxDxDxhbadExEx"
 
 alias dotfiles "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $argv"
+
 alias airport "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport $argv"
+alias ic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
+
 alias pdftk "docker run --rm -v (pwd):/wd -i ivoputzer/pdftk $argv"
 alias youtube-dl "docker run --rm -v (pwd):/wd -t ivoputzer/youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]' $argv"
 
