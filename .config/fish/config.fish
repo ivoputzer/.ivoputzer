@@ -26,6 +26,7 @@ alias lc "stat -f '%A %N' * $argv"
 alias l "ls -hAno $argv"
 alias dot "dotfiles $argv"
 alias do "docker $argv"
+alias dops "do ps --format \"table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}\" $argv"
 alias doco "docker-compose $argv"
 
 alias bashrc "vim ~/.bashrc"
