@@ -34,8 +34,8 @@ alias fishrc "vim ~/.config/fish/config.fish"
 alias tigrc "vim ~/.tigrc"
 alias zshrc "vim ~/.zshrc"
 
+alias git "hub $argv"
 alias g "git $argv"
-alias h "hub $argv"
 
 alias gm "git merge $argv"
 alias ga "git add $argv"
