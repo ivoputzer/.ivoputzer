@@ -7,7 +7,6 @@
 	[
 		"3024 Color Scheme",
 		"AdvancedNewFile",
-		"All Autocomplete",
 		"AutoFileName",
 		"Color Highlighter",
 		"Dockerfile Syntax Highlighting",
@@ -17,7 +16,6 @@
 		"fish",
 		"Git",
 		"GitGutter",
-		"HTML-CSS-JS Prettify",
 		"JavaScriptNext - ES6 Syntax",
 		"Markdown Preview",
 		"Material Theme",
@@ -25,7 +23,6 @@
 		"Package Control",
 		"Pug",
 		"SideBarEnhancements",
-		"StandardFormat",
 		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-contrib-standard",
