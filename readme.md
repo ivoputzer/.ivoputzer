@@ -43,6 +43,12 @@ curl -L https://git.io/n-install | bash -s -- -y latest stable lts
 #### iterm2
 navigate to the preferences window (iterm2 -> preferences), click on the general tab and towards the bottom of the window you should see an option that says `load preferences from a custom folder or url`. check this option and set the url according to `$HOME/.iterm2`.
 
+```sh
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$HOME/.iterm2"
+```
+
+
 #### sublime text 3
 ```shell
 ST3=~/Library/Application\ Support/Sublime\ Text\ 3
