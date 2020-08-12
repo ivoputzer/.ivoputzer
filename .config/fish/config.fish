@@ -1,5 +1,6 @@
 set -x EDITOR "subl -w"
 set -x PATH "/usr/local/sbin" $PATH
+set -x PATH "/usr/local/bin" $PATH
 set -x LANG "en_US.UTF-8"
 set -x LC_ALL "en_US.UTF-8"
 set -x CLICOLOR "YES"
